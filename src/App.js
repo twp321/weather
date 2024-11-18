@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div className="App">
-    <h2>Weather</h2>
+    <h1>Weather</h1>
     <Input/>
     <Button onClick={weather.fetchData} name="Search"/>
     <Card/>
