@@ -9,7 +9,7 @@ const App = () => {
   const weather = useWeather();
   useEffect(() => {
     weather.fetchCurrentData();
-  },[weather]);
+  },[]);
 
   return (
     <div className="App">
